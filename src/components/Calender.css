@@ -1,0 +1,125 @@
+/*
+{
+    
+background-image: url("../calender.jpg");
+background-repeat: "no-repeat";
+
+}
+*/
+.page {
+display:grid;
+justify-content: center;
+align-items: center;
+border-collapse: collapse;
+text-align: center;
+}
+th {
+    padding: 1rem 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+}
+td {
+    padding:1rem 1rem;
+    width: 40px;
+    height: 40px;
+}
+.Year-Month {
+    font-size: 20px;
+    color:rgb(53, 6, 28);
+}
+.week-day {
+    font-size: 25px;
+    font-weight: bold;
+    color : green;
+
+}
+.day {
+  font-weight: bold;
+  font: 30px;
+  cursor: pointer;
+}
+.Selected {
+    display: flex;
+   background-color: blue;
+    border-radius: 50px;
+    width : 40px;
+    height: 40px;
+   color:white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.day:hover {
+    display: flex;
+    background-color: rgb(0, 174, 255);
+     border-radius: 50px;
+     width : 40px;
+     height: 40px;
+     color:white;
+     justify-content: center;
+     align-items: center;
+
+
+}
+.today {
+    display: flex;
+   background-color: orange;
+    border-radius: 50px;
+    width : 40px;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;   
+    cursor: pointer;
+}
+.before {
+    color : gray ;
+}
+.leftSign  {
+    cursor: pointer;
+    background-color: white;
+    border : none;
+   
+}
+.rightSign {
+    cursor: pointer;
+    background-color: white;
+    border : none;
+
+}
+.leftSign:hover {
+    color : red;
+}
+.rightSign:hover{
+    color : red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
